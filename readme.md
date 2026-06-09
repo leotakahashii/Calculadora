@@ -11,7 +11,7 @@ Uma calculadora funcional construída do zero com HTML, CSS e JavaScript puro.
 
 1. Clone o repositório:
    ```bash
-   https://github.com/leotakahashii/calculadora
+   git clone https://github.com/leotakahashii/calculadora
    ```
 2. Abra o arquivo `index.html` no navegador — sem instalação necessária.
 
