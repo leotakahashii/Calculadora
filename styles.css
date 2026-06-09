@@ -1,0 +1,93 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fdfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.calculadora {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(224, 213, 213, 0.2);
+  width: 320px;
+}
+
+.display {
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.display .expression {
+  font-size: 18px;
+  color: #888;
+  min-height: 20px;
+}
+
+.display .result {
+  font-size: 42px;
+  color: #fff;
+  min-height: 30px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.buttons button {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  height: 60px;
+  aspect-ratio: 1 / 1;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.buttons button:active {
+  filter: brightness(1.2);
+  transform: scale(0.95);
+}
+
+.btn-func {
+  background-color: #504d4d;
+  color: #fff;
+}
+
+.btn-num {
+  background-color: #64696e;
+  color: #fff;
+}
+
+.btn-op {
+  background-color: #be5a08;
+  color: #fff;
+}
+
+.btn-equal {
+  background-color: #be5a08;
+  color: #fff;
+}
+
+.btn-zero {
+  grid-column: span 2;
+  text-align: center;
+}
+
+
+
+
